@@ -1,0 +1,59 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    height: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table cell styles */
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #800000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
